@@ -217,7 +217,7 @@ svg {
     gap: 20px;
     color: #1e1b42;
     margin-top: 7em;
-    margin-bottom: 13em
+    margin-bottom: 13em;
 }
 .inner-home, .inner-about{
     flex: 1 1 45rem;
@@ -292,7 +292,7 @@ svg {
 
 @media screen and (max-width: 1460px){
     .home-info, .about-info {
-        padding: 3em;
+        padding: 3em 3em 0 3em;
     }
 
     .inner-home img, .inner-about img{
