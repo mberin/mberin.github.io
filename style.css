@@ -15,14 +15,16 @@ body {
 }
 
 .header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 3.5em;
     box-shadow: 0px 2px 6px rgba(93, 79, 255, 0.1);
-    position: relative;
-    z-index: 999;
+    z-index: 1;
     width: 100%;
+    top: 0;
+    background-color: white;
 }
 
 .logo img{
@@ -127,7 +129,7 @@ svg {
     bottom: 0;
     list-style: none;
     padding: 15px;
-    height: 215px;
+    height: 260px;
     transition: all 0.5s;
     text-align: center;
 }
@@ -147,10 +149,10 @@ svg {
 }
 
 .showNav {
-    top: 110px;
+    top: 108px;
 }
 
-@media screen and (max-width: 834px){
+@media screen and (max-width: 932px){
     .navbar a{
         font-size: 0.8em;
     } 
@@ -165,7 +167,7 @@ svg {
     }
 }
 
-@media screen and (max-width: 686px){
+@media screen and (max-width: 785px){
     .white-btn {
         display: none;
     }
@@ -177,7 +179,7 @@ svg {
 
     .big-nav .menu-bar i{
         font-size: 1.5em;
-        padding-top: 28px;
+        padding-top: 32px;
     } 
 }
 
@@ -201,9 +203,11 @@ svg {
     .book {
         padding: 20px 5px;
     }
+
+    .header {
+        width: 100%;
+    }
 }
-
-
 
 .landing{
     display: flex;
@@ -211,12 +215,14 @@ svg {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    /* margin-top: 6%; */
     color: #1e1b42;
+    margin-top: 7em
 }
 .inner-home{
     flex: 1 1 45rem;
-    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .inner-home img{
     width: 100%;
@@ -231,6 +237,8 @@ svg {
     padding: 3em;
     margin-top: 2em;
     margin-bottom: 2em;
+    padding-left: 6em;
+    padding-bottom: 20em;
 }
 
 .home-main-text {
@@ -239,7 +247,7 @@ svg {
 }
 
 .home-main-text, .home-subtext {
-    text-align: left;
+    text-align: center;
 }
 
 .home-subtext {
@@ -268,6 +276,7 @@ svg {
 
 .service-btn {
     background-color: white;
+    color: #5d4fff ;
     border-radius: 10px;
     padding: 20px 16px;
     transition: ease 0.3s;
@@ -277,6 +286,47 @@ svg {
 
 .service-btn:hover, .appoint-btn:hover{
     transform: translateY(-3px);
+}
+
+@media screen and (max-width: 1460px){
+    .home-info {
+        padding: 3em;
+    }
+
+    .inner-home img{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 596px){
+    .inner-home img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 476px){
+    .appoint-btn, .service-btn {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 412px){
+    .appoint-btn, .service-btn {
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+}
+
+@media screen and (max-width: 337px){
+    .home-info {
+        padding: 3em 1em;
+
+    }
+
+
 }
 
 
