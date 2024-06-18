@@ -337,7 +337,99 @@ svg {
     font-size: 3em;
 }
 
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3em;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
 
+.meet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13em
+}
+
+.face-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.face-img {
+    width: 250px;
+    height: 275px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2F1FE;
+    margin-bottom: 2em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.face-img img {
+    height: 100%;
+    width: 100%;
+    /* padding-top: 20px; */
+    object-fit: cover;
+
+}
+
+.face-info {
+    text-align: center;
+}
+
+.name, .profession, .contact-btn {
+    margin-bottom: 0.5em;
+
+}
+
+.name {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.profession {
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-btn i{
+    border-radius: 50%;
+    background-color: #5d4fff;
+    color: white;
+    padding: 8px;
+}
+
+.contact-btn i:first-child {
+    margin-right: 0.25em;
+}
+
+.contact-btn i:last-child {
+    margin-left: 0.25em;
+}
+
+@media screen and (max-width: 363px) {
+    .about-main-text, .title {
+        font-size: 2.3em;
+    }
+
+    
+    
+}
 
 
 
