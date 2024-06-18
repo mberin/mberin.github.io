@@ -219,6 +219,11 @@ svg {
     margin-top: 7em;
     margin-bottom: 13em;
 }
+
+.about {
+    margin-bottom: 11em;
+}
+
 .inner-home, .inner-about{
     flex: 1 1 45rem;
     display: flex;
@@ -229,6 +234,7 @@ svg {
     width: 100%;
     height: auto;
     border-radius: 15px;
+    text-align: center;
 }
 
 .home-info {
@@ -298,11 +304,10 @@ svg {
     .inner-home img, .inner-about img{
         width: 80%;
     }
-    /* .inner-home img, .inner-about img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    } */
+    
+    .about {
+        margin-bottom: 9em;
+    }
 
 }
 
