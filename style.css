@@ -209,22 +209,23 @@ svg {
     }
 }
 
-.landing{
+.landing, .about{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     color: #1e1b42;
-    margin-top: 7em
+    margin-top: 7em;
+    margin-bottom: 6em
 }
-.inner-home{
+.inner-home, .inner-about{
     flex: 1 1 45rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.inner-home img{
+.inner-home img, .inner-about img{
     width: 100%;
     height: auto;
 }
@@ -241,16 +242,16 @@ svg {
     padding-bottom: 20em;
 }
 
-.home-main-text {
+.home-main-text, .about-main-text {
     font-size: 2.5em;
     font-weight: bolder;
 }
 
-.home-main-text, .home-subtext {
+.home-main-text, .home-subtext, .about-main-text, .about-subtext {
     text-align: center;
 }
 
-.home-subtext {
+.home-subtext, .about-subtext {
     margin: 1.5em;
     font-size: 1.2em;
 }
@@ -289,17 +290,19 @@ svg {
 }
 
 @media screen and (max-width: 1460px){
-    .home-info {
+    .home-info, .about-info {
         padding: 3em;
     }
 
-    .inner-home img{
+    .inner-home img, .inner-about img{
         width: 600px;
+        border-radius: 10px;
     }
+
 }
 
 @media screen and (max-width: 596px){
-    .inner-home img{
+    .inner-home img, .inner-about img{
         width: 100%;
     }
 
@@ -317,17 +320,24 @@ svg {
         text-align: center;
         font-size: 0.6em;
     }
-
 }
 
 @media screen and (max-width: 337px){
-    .home-info {
+    .home-info, .about-info {
         padding: 3em 1em;
 
     }
-
-
 }
+
+.about-subtext {
+    text-align: left;
+}
+
+.about-main-text {
+    font-size: 3em;
+}
+
+
 
 
 
