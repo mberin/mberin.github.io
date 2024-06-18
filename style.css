@@ -217,7 +217,7 @@ svg {
     gap: 20px;
     color: #1e1b42;
     margin-top: 7em;
-    margin-bottom: 6em
+    margin-bottom: 13em
 }
 .inner-home, .inner-about{
     flex: 1 1 45rem;
@@ -228,6 +228,7 @@ svg {
 .inner-home img, .inner-about img{
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 .home-info {
@@ -296,7 +297,6 @@ svg {
 
     .inner-home img, .inner-about img{
         width: 600px;
-        border-radius: 10px;
     }
 
 }
