@@ -389,6 +389,7 @@ svg {
 .book-btn {
     width: 40%;
     text-align: right;
+    transition: ease 0.3s;
     
 }
 
@@ -399,11 +400,10 @@ svg {
     font-weight: bolder;
     padding: 20px 15px;
     background-color: #5d4fff;
-    transition: ease 0.3s;
     box-shadow: none;
 }
 
-.service-appoint-btn:hover {
+.book-btn:hover {
     transform: translateY(-3px);
 }
 
