@@ -183,6 +183,13 @@ svg {
     } 
 }
 
+@media screen and (max-width: 563px) {
+    .showNav {
+        top: 90px;
+    }
+    
+}
+
 @media screen and (max-width: 451px){
     .header{
         padding: 1em;
@@ -194,7 +201,7 @@ svg {
     }
 }
 
-@media screen and (max-width: 371px){
+@media screen and (max-width: 378px){
     .header img {
         height: 45px;
         width: 100px;
@@ -206,6 +213,10 @@ svg {
 
     .header {
         width: 100%;
+    }
+
+    .showNav {
+        top: 79px;
     }
 }
 
