@@ -489,6 +489,12 @@ svg {
         font-size: 0.8em;
     }
 
+    .listService {
+        grid-template-columns: repeat(1, 230px);
+    }
+
+
+
 }
 
 @media screen and (max-width: 445px) {
