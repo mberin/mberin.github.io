@@ -187,6 +187,9 @@ svg {
     .showNav {
         top: 90px;
     }
+    .sidebar {
+        height: 245px;
+    }
     
 }
 
@@ -216,7 +219,11 @@ svg {
     }
 
     .showNav {
-        top: 79px;
+        top: 76px;
+    }
+
+    .sidebar {
+        height: 220px;
     }
 }
 
