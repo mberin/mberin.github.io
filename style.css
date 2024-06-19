@@ -292,7 +292,7 @@ svg {
     margin-left: 1.4em;
 }
 
-.service-btn:hover, .appoint-btn:hover{
+.service-btn:hover, .appoint-btn:hover {
     transform: translateY(-3px);
 }
 
@@ -347,6 +347,12 @@ svg {
     font-size: 3em;
 }
 
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .title {
     display: flex;
     flex-wrap: wrap;
@@ -356,46 +362,80 @@ svg {
     text-align: center;
 }
 
-.meet {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 13em
+.service {
+    font-size: 2.5em;
+    width: 60%;
+    text-align: left;
 }
 
-.face-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 3em;
+.book-btn {
+    width: 40%;
+    text-align: right;
+    
 }
 
-.face-img {
-    width: 250px;
-    height: 275px;
+.service-appoint-btn{
+    color: white;
     border: none;
     border-radius: 10px;
-    background-color: #F2F1FE;
-    margin-bottom: 2em;
-    text-align: center;
-    overflow: hidden;
+    font-weight: bolder;
+    padding: 20px 15px;
+    background-color: #5d4fff;
+    transition: ease 0.3s;
+    box-shadow: none;
 }
 
-.face-img img {
+.service-appoint-btn:hover {
+    transform: translateY(-3px);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1em 13em 1em;
+}
+
+.listService {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 3em;
+}
+
+.service-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.service-img {
+    height: 50%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.service-img img {
     height: 100%;
     width: 100%;
-    /* padding-top: 20px; */
     object-fit: cover;
 
 }
 
-.face-info {
+.service-info {
     text-align: center;
+    padding: 10px;
+    height: 50%;
+    box-shadow: 2px 2px 10px rgba(93, 79, 255, 0.1);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
 }
 
-.name, .profession, .contact-btn {
+.name, .description, .contact-btn {
     margin-bottom: 0.5em;
 
 }
@@ -405,41 +445,48 @@ svg {
     font-weight: bold;
 }
 
-.profession {
+.description {
     font-weight: 300;
     margin-bottom: 1em;
 }
 
-.contact-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+@media screen and (max-width: 1092px) {
+    .service {
+        font-size: 2em;
+    }
 }
 
-.contact-btn i{
-    border-radius: 50%;
-    background-color: #5d4fff;
-    color: white;
-    padding: 8px;
-}
-
-.contact-btn i:first-child {
-    margin-right: 0.25em;
-}
-
-.contact-btn i:last-child {
-    margin-left: 0.25em;
-}
-
-@media screen and (max-width: 363px) {
-    .about-main-text, .title {
-        font-size: 2.3em;
+@media screen and (max-width: 717px) {
+    .service{
+        font-size: 1.7em;
     }
 
-    
-    
+    .about-main-text {
+        font-size: 2.2em;
+    }
 }
+
+@media screen and (max-width: 562px) {
+    :root {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+    .service-appoint-btn {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 377px) {
+    :root {
+        font-size: 0.6em;
+    }
+
+}
+
 
 
 
