@@ -20,7 +20,7 @@ const addDataToHTML = () => {
             newService.classList.add('service-card');
             newService.innerHTML =
             `<div class="service-img">
-                <img src="${service.image}" alt="consultation">
+                <img src="${service.image}" alt="${service.name}">
             </div>
             <div class="service-info">
                 <div class="name">${service.name}</div>
