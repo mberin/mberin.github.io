@@ -464,7 +464,7 @@ svg {
 
 .service-info {
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
     height: 50%;
     border-top: none;
     border-radius: 0 0 10px 10px;
