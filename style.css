@@ -190,6 +190,15 @@ svg {
     .sidebar {
         height: 245px;
     }
+
+    .big-nav .menu-bar i{
+        font-size: 1.5em;
+        padding-top: 26px;
+    } 
+
+    .book {
+        padding: 15px 10px
+    }
     
 }
 
@@ -213,6 +222,8 @@ svg {
     .book {
         padding: 20px 5px;
     }
+
+    
 
     .header {
         width: 100%;
@@ -369,6 +380,7 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* width: 100%; */
 }
 
 .title {
