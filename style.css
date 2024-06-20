@@ -534,7 +534,7 @@ svg {
 
 .slider{
     width: 100%;
-    height: var(--height);
+    height: 480px;
     overflow: hidden;
     mask-image: linear-gradient(
         to right,
@@ -543,6 +543,7 @@ svg {
         transparent
     );
     margin-top: 3em;
+    padding-top: 0.8em;
 }
 .review-list{
     display: flex;
@@ -593,6 +594,28 @@ svg {
     }to{
         left: calc(var(--width) * -1);
     }
+}
+
+@media screen and (max-width: 562px) {
+    .slider {
+        height: 340px;
+    }
+
+    .review-card {
+        height: 310px;
+    }
+
+}
+
+@media screen and (max-width: 378px) {
+    .slider {
+        height: 240px;
+    }
+
+    .review-card {
+        height: 210px;
+    }
+
 }
 
 
