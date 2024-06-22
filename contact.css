@@ -300,13 +300,13 @@ svg {
 
 
 .contact-header {
-    margin-top: 14em;
+    margin-top: 11em;
     margin-bottom: 11em;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .title {
@@ -319,22 +319,20 @@ svg {
 }
 
 .icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-top: 3em;
-    border: 1px solid blue;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 250px)); */
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    padding: 1em;
 }
 
 .individual-icon-sections {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin: 1em 0;
-    border: 1px solid green;
+    margin: 2em 0;
+    text-align: center;
 }
 
 .individual-icon-sections i {
@@ -350,11 +348,6 @@ svg {
 
 }
 
-.individual-icon-sections:last-child {
-    padding-top: 40px;
-    border: 1px solid red;
-}
-
 .icon-info {
     text-wrap: wrap;
     padding-top: 1em;
@@ -362,7 +355,7 @@ svg {
 }
 
 
-.map-container {
+/* .map-container {
     position: relative;
 }
 
@@ -384,7 +377,49 @@ svg {
     position: absolute;
     top: 5em;
     margin: 0 auto;
+} */
+
+@media screen and (max-width: 1012px) {
+    .icon-container {
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    
 }
+
+@media screen and (max-width: 689px) {
+    .icon-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0;
+    }
+
+}
+
+@media screen and (max-width: 562px) {
+    .individual-icon-sections .fa-location-dot {
+        padding: 15px 22px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 377px) {
+    .icon-info {
+        font-size: 1.4em;
+
+    }
+
+    .individual-icon-sections .fa-location-dot {
+        padding: 15px 20px;
+    
+    }
+
+}
+
+
+
 
 
 
