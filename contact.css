@@ -76,7 +76,7 @@ button {
 
 }
 
-.book{
+.book {
     padding: 20px 10px;
     background-color: #5d4fff;
     text-align: center;
@@ -85,10 +85,6 @@ button {
 .book a {
     color: white;
     font-weight: bolder;
-}
-
-svg {
-    cursor: pointer;
 }
 
 .book, .btn-nav {
@@ -249,7 +245,7 @@ svg {
     }
 
     .book {
-        padding: 20px 5px;
+        padding: 15px 11px;
         font-size: 1.3em;
     }
 
@@ -269,11 +265,11 @@ svg {
     }
 
     .sidebar {
-        height: 240px;
+        height: 250px;
     }
 
     .sidebar li {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 }
 
