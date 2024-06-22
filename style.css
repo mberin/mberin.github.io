@@ -165,9 +165,13 @@ svg {
     .big-nav i{
         padding-top: 18px;
     }
+
+    .book {
+        font-size: 1.2em;
+    }
 }
 
-@media screen and (max-width: 785px){
+@media screen and (max-width: 803px){
     .white-btn {
         display: none;
     }
@@ -179,8 +183,13 @@ svg {
 
     .big-nav .menu-bar i{
         font-size: 1.5em;
-        padding-top: 29px;
-    } 
+        padding-top: 31px;
+    }
+
+    .big-nav i {
+        padding-top: 22px;
+
+    }
 }
 
 @media screen and (max-width: 563px) {
@@ -199,6 +208,11 @@ svg {
     .book {
         padding: 15px 10px
     }
+
+    .big-nav i {
+        padding-top: 18px;
+
+    }
     
 }
 
@@ -213,7 +227,7 @@ svg {
     }
 }
 
-@media screen and (max-width: 378px){
+@media screen and (max-width: 377px){
     .header img {
         height: 45px;
         width: 100px;
@@ -221,6 +235,15 @@ svg {
 
     .book {
         padding: 20px 5px;
+    }
+
+    .big-nav i {
+        font-size: 3.2em;
+    }
+
+    .menu-bar {
+        font-size: 1.3em;
+
     }
 
     
@@ -349,15 +372,21 @@ svg {
 
 @media screen and (max-width: 476px){
     .appoint-btn, .service-btn {
-        font-size: 0.8em;
+        font-size: 0.9em;
+        padding: 17px 16px;
+    }
+
+    .book {
+        font-size: 1.1em;
+        padding: 15px 11px;
+
     }
 
 }
 
 @media screen and (max-width: 412px){
-    .appoint-btn, .service-btn {
+    .appoint-btn, .service-btn, .book {
         text-align: center;
-        font-size: 0.6em;
     }
 }
 
@@ -380,7 +409,6 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
 }
 
 .title {
@@ -510,6 +538,12 @@ svg {
         grid-template-columns: repeat(1, 230px);
     }
 
+    .about-main-text {
+        font-size: 3em;
+    }
+
+    .book
+
 
 
 }
@@ -525,6 +559,32 @@ svg {
     :root {
         font-size: 0.6em;
     }
+
+    .description, .footer h3, .subfooter-list li, .home-btn a {
+        font-size: 1.1em;
+    }
+
+    .about-subtext {
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+
+    .book {
+        font-size: 1.3em;
+    }
+
+    .service-appoint-btn {
+        font-size: 1em;
+        padding: 18px 8px;
+    }
+
+    /* .menu-bar {
+        padding-bottom: 30px;
+    } */
+
+    
+
+
 
 }
 
@@ -613,7 +673,7 @@ svg {
     }
 
     .review-card {
-        height: 210px;
+        height: 230px;
     }
 
 }
