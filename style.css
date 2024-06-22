@@ -231,7 +231,8 @@ svg {
     }
 
     .showNav {
-        top: 80px;
+        /* change */
+        top: 76px;
     }
 
 }
