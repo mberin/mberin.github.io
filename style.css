@@ -148,10 +148,6 @@ svg {
     color: #5d4fff;
 }
 
-.showNav {
-    top: 100px;
-}
-
 @media screen and (max-width: 932px){
     .navbar a{
         font-size: 0.8em;
@@ -253,10 +249,6 @@ svg {
     .menu-bar {
         font-size: 1.3em;
 
-    }
-
-    .showNav {
-        top: 76px;
     }
 
     
