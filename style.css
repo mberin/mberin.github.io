@@ -745,7 +745,7 @@ svg {
     }
 }
 
-@media screen and (max-width: 733px) {
+@media screen and (max-width: 734px) {
     .img-foot img{
         height: 65px;
         width: 130px;
@@ -760,19 +760,15 @@ svg {
     }
 
     .large-footer-container {
-        grid-template-columns: 210px 110px;
+        grid-template-columns: 320px 110px;
         grid-template-rows: 190px 332px;
         padding-top: 1em;
-
     }
-
-    
 }
 
 @media screen and (max-width: 562px) {
     .large-footer-container {
         display: flex;
-        /* justify-content: flex-start; */
         align-items: left;
         flex-wrap: wrap;
         padding: 2em 1em 0 1em;
