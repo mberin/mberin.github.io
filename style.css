@@ -197,7 +197,7 @@ svg {
         top: 90px;
     }
     .sidebar {
-        height: 245px;
+        height: 265px;
     }
 
     .big-nav .menu-bar i{
@@ -213,6 +213,10 @@ svg {
         padding-top: 18px;
 
     }
+
+    .sidebar li {
+        font-size: 1.7em;
+    }
     
 }
 
@@ -227,7 +231,7 @@ svg {
     }
 
     .showNav {
-        top: 70px;
+        top: 78px;
     }
 
 }
@@ -258,11 +262,11 @@ svg {
     }
 
     .sidebar {
-        height: 240px;
+        height: 250px;
     }
 
     .sidebar li {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 }
 
