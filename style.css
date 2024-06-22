@@ -190,6 +190,10 @@ svg {
         padding-top: 22px;
 
     }
+
+    .showNav {
+        top: 107px;
+    }
 }
 
 @media screen and (max-width: 563px) {
@@ -225,6 +229,11 @@ svg {
         height: 60px;
         width: 130px;
     }
+
+    .showNav {
+        top: 80px;
+    }
+
 }
 
 @media screen and (max-width: 377px){
@@ -246,18 +255,22 @@ svg {
 
     }
 
+    .showNav {
+        top: 76px;
+    }
+
     
 
     .header {
         width: 100%;
     }
 
-    .showNav {
-        top: 76px;
+    .sidebar {
+        height: 240px;
     }
 
-    .sidebar {
-        height: 220px;
+    .sidebar li {
+        font-size: 1.7em;
     }
 }
 
