@@ -287,10 +287,6 @@ svg {
     :root {
         font-size: 0.6em;
     }
-
-    .footer, .copyright {
-        width: 100%;
-    }
 }
 
 
@@ -301,7 +297,7 @@ svg {
 
 .contact-header {
     margin-top: 11em;
-    margin-bottom: 11em;
+    margin-bottom: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,29 +351,36 @@ svg {
 }
 
 
-/* .map-container {
+.map-container {
     position: relative;
 }
 
 .combined-boxes-under, .map-container {
     position: relative;
+    text-align: center;
 }
 
-.light-purple {
-    background-color: purple;
-    border: 1px solid red;
-    height: 50vh;
+.light-gray {
+    background-color: #F8F7F3;
+    height: 350px;
 }
 
 .white {
-    height: 50vh;
+    height: 350px;
+    background-color: white;
 }
 
 .map {
     position: absolute;
-    top: 5em;
-    margin: 0 auto;
-} */
+    top: 3em;
+    width: 100%;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 15px;
+    padding: 0 1em;
+}
 
 @media screen and (max-width: 1012px) {
     .icon-container {
@@ -387,11 +390,32 @@ svg {
     
 }
 
+@media screen and (max-width: 809px) {
+    iframe {
+        height: 600px;
+        width: 100%;
+    }
+
+}
+
 @media screen and (max-width: 689px) {
     .icon-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         gap: 0;
+    }
+
+}
+
+@media screen and (max-width: 628px) {
+
+    iframe {
+        height: 500px;
+    }
+
+    .map {
+        top: 6em;
+
     }
 
 }
@@ -405,15 +429,41 @@ svg {
 
 }
 
+@media screen and (max-width: 441px) {
+
+    iframe {
+        height: 300px;
+    }
+
+    .map {
+        top: 8em;
+
+    }
+
+    .light-gray, .white {
+        height: 250px;
+    }
+
+}
+
 @media screen and (max-width: 377px) {
     .icon-info {
-        font-size: 1.4em;
+        font-size: 1.5em;
 
     }
 
     .individual-icon-sections .fa-location-dot {
         padding: 15px 20px;
     
+    }
+
+    .light-gray, .white {
+        height: 200px;
+    }
+
+    .map {
+        top: 5em;
+
     }
 
 }
@@ -428,6 +478,10 @@ svg {
 
 
 
+
+.footer, .copyright {
+    width: 100%;
+}
 
 .footer {
     display: flex;
@@ -470,8 +524,10 @@ svg {
 }
 
 .footer .fa-location-dot {
-    padding: 9px 12px 9px 12px;
+    padding: 9px 11.5px;
 }
+
+
 
 .large-footer-container {
     display: grid;
@@ -595,3 +651,22 @@ svg {
         font-size: 1.4em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
