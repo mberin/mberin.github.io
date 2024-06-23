@@ -56,31 +56,55 @@
     {
         "id": 10,
         "image": "img/10.jpg",
-        "name":"Retainers",
+        "name":"Hawley Retainer",
         "description": "Custom-made devices worn post-orthodontic treatment to maintain teeth alignment and prevent shifting."
     },
     {
         "id": 11,
+        "image": "img/24.jpg",
+        "name":"Invisible Retainer",
+        "description": "A clear, custom-made device worn after orthodontic treatment to maintain teeth alignment discreetly and comfortably."
+    },
+    {
+        "id": 12,
         "image": "img/11.jpg",
         "name":"Braces",
         "description": "Orthodontic devices used to correct misaligned teeth and jaw positions, improving bite and overall dental health."
     },
     {
-        "id": 12,
+        "id": 13,
         "image": "img/12.jpeg",
         "name":"Tooth Whitening",
         "description": "A cosmetic procedure that lightens teeth and removes stains and discoloration for a brighter smile."
     },
     {
-        "id": 13,
+        "id": 14,
         "image": "img/13.jpg",
-        "name":"Dental Sealant",
-        "description": "A protective coating applied to the chewing surfaces of back teeth, preventing cavities and decay."
+        "name":"Pit and Fissure Sealant",
+        "description": "Protective coating for back teeth to prevent cavities, ideal for kids and teens."
     },
     {
-        "id": 14,
+        "id": 15,
+        "image": "img/21.jpg",
+        "name":"Fluoride Treatment",
+        "description": "Topical fluoride application to strengthen enamel and prevent cavities, for all ages."
+    },
+    {
+        "id": 16,
         "image": "img/14.jpg",
         "name":"Periapical Radiograph",
         "description": "An X-ray image showing the whole tooth and surrounding bone, useful for diagnosing dental issues like infections or fractures."
+    },
+    {
+        "id": 17,
+        "image": "img/22.jpg",
+        "name":"Jacket Crown",
+        "description": "Custom cap for damaged teeth, restoring shape, strength, and appearance."
+    },
+    {
+        "id": 18,
+        "image": "img/23.jpg",
+        "name":"Fixed Bridge",
+        "description": "Non-removable appliance replacing missing teeth, anchored to adjacent teeth or implants."
     }
 ]
