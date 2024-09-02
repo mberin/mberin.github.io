@@ -113,36 +113,47 @@ button {
     background-color: #F2F1FE;
 }
 
-.sidebar {
+.small-nav {
     position: fixed;
     display: flex;
     background-color: white;
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    top: -1000px;
-    right: 0;
-    bottom: 0;
-    list-style: none;
+    top: 0;
+    right: -2000px;
     padding: 15px;
-    height: 260px;
+    height: 100vh;
     transition: all 0.5s;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    height: 100vh;
     text-align: center;
+    padding-top: 30em;
 }
 
 .sidebar li {
     width: 100%;
     padding: 15px;
-    font-size: 1.3rem;
+    font-size: 3em;
 }
 
 .sidebar a{
     transition: ease 0.3s;
 }
 
-.sidebar a:hover {
+.sidebar a:hover, .fa-xmark:hover {
     color: #5d4fff;
+}
+
+.fa-xmark {
+    font-size: 3em;
 }
 
 @media screen and (max-width: 932px){
@@ -183,20 +194,17 @@ button {
         padding-top: 22px;
 
     }
-
-    .showNav {
-        top: 107px;
-    }
 }
 
 @media screen and (max-width: 563px) {
     .showNav {
-        top: 90px;
+        right: 0;
     }
+
     .sidebar {
         height: 245px;
     }
-
+    
     .big-nav .menu-bar i{
         font-size: 1.5em;
         padding-top: 26px;
@@ -231,11 +239,6 @@ button {
         height: 60px;
         width: 130px;
     }
-
-    .showNav {
-        top: 70px;
-    }
-
 }
 
 @media screen and (max-width: 377px){
@@ -269,7 +272,7 @@ button {
     }
 
     .sidebar li {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 

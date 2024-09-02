@@ -1,11 +1,17 @@
-let iconCart = document.querySelector('.fa-bars');
-let sidebar = document.querySelector(".sidebar");
-let listServiceHTML = document.querySelector('.listService');
+const hamburgerBtn = document.querySelector('.fa-bars');
+const closeBtn = document.querySelector('.fa-xmark');
+const sidebar = document.querySelector(".small-nav");
+const listServiceHTML = document.querySelector('.listService');
 let services = [];
 
-iconCart.addEventListener('click', () => {
+hamburgerBtn.addEventListener('click', function() {
     sidebar.classList.toggle('showNav');
-});
+})
+
+closeBtn.addEventListener('click', function() {
+    sidebar.classList.remove('showNav');
+})
+
 
 
 const addDataToHTML = () => {
