@@ -135,7 +135,6 @@ button {
     list-style: none;
     height: 100vh;
     text-align: center;
-    padding-top: 30em;
 }
 
 .sidebar li {
@@ -200,11 +199,7 @@ button {
     }
 }
 
-@media screen and (max-width: 563px) {
-    .sidebar {
-        height: 245px;
-    }
-    
+@media screen and (max-width: 563px) {  
     .big-nav .menu-bar i{
         font-size: 1.5em;
         padding-top: 26px;
@@ -258,17 +253,10 @@ button {
 
     .menu-bar {
         font-size: 1.3em;
-
     }
-
-    
 
     .header {
         width: 100%;
-    }
-
-    .sidebar {
-        height: 250px;
     }
 
     .sidebar li {
@@ -315,7 +303,6 @@ button {
 
 .icon-container {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 250px)); */
     grid-template-columns: repeat(3, 300px);
     gap: 30px;
     padding: 1em;
