@@ -178,6 +178,10 @@ svg {
 }
 
 @media screen and (max-width: 803px){
+    .showNav {
+        right: 0;
+    }
+    
     .white-btn {
         display: none;
     }
@@ -194,14 +198,10 @@ svg {
 
     .big-nav i {
         padding-top: 22px;
-
     }
 }
 
 @media screen and (max-width: 563px) {
-    .showNav {
-        right: 0;
-    }
 
     .big-nav .menu-bar i{
         font-size: 1.5em;
