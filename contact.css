@@ -176,6 +176,10 @@ button {
 }
 
 @media screen and (max-width: 803px){
+    .showNav {
+        right: 0;
+    }
+    
     .white-btn {
         display: none;
     }
@@ -197,10 +201,6 @@ button {
 }
 
 @media screen and (max-width: 563px) {
-    .showNav {
-        right: 0;
-    }
-
     .sidebar {
         height: 245px;
     }
