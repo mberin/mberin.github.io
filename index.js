@@ -2,6 +2,8 @@ const hamburgerBtn = document.querySelector('.fa-bars');
 const closeBtn = document.querySelector('.fa-xmark');
 const sidebar = document.querySelector(".small-nav");
 const listServiceHTML = document.querySelector('.listService');
+const currentYearContainer = document.querySelector('#current-year');
+let currentYear = new Date().getFullYear();
 let services = [];
 
 hamburgerBtn.addEventListener('click', function() {
@@ -38,6 +40,9 @@ const addDataToHTML = () => {
 }
 
 const initApp = () => {
+    currentYearContainer.textContent = `${currentYear}`;
+    console.log(currentYear);
+
     // Get services data
     fetch('services.json')
     .then(response => response.json())
