@@ -41,7 +41,6 @@ const addDataToHTML = () => {
 
 const initApp = () => {
     currentYearContainer.textContent = `${currentYear}`;
-    console.log(currentYear);
 
     // Get services data
     fetch('services.json')
