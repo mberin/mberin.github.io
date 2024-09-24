@@ -17,9 +17,6 @@ closeBtn.addEventListener('click', function() {
 
 
 const addDataToHTML = () => {
-    // Clear existing services
-    listServiceHTML.innerHTML = '';
-
     // Add new services
     if (services.length > 0) {
         services.forEach(service => {
