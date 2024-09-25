@@ -486,7 +486,6 @@ svg {
 
 .service-info {
     text-align: center;
-    /* padding: 10px 10px 40px 10px; */
     padding: 10px;
     height: 50%;
     border-top: none;
@@ -522,10 +521,12 @@ svg {
     border-radius: 15px;
     cursor: pointer;
     transition: ease 0.3s;
+    box-shadow: 2px 2px 10px rgba(93, 79, 255, 0.1);
 }
 
 .learn-more:hover {
-    transform: translateY(-3px);
+    background-color: white;
+    color: #5d4fff;
 }
 
 @media screen and (max-width: 1092px) {
